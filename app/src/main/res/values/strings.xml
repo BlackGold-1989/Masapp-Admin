@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Masapp Admin</string>
+
+    <string name="normal_email">Email</string>
+    <string name="normal_password">Password</string>
+    <string name="normal_remember">Remember</string>
+    <string name="normal_seller">Seller</string>
+    <string name="normal_buyer">Buyer</string>
+    <string name="normal_gender">Gender</string>
+    <string name="normal_male">Male</string>
+    <string name="normal_female">Female</string>
+    <string name="normal_user_name">User Name</string>
+    <string name="normal_phone_number">Phone Number</string>
+    <string name="normal_sur_name">Sur Name</string>
+    <string name="normal_age">Age</string>
+    <string name="normal_location">Location</string>
+    <string name="normal_status">Status</string>
+    <string name="normal_history">History</string>
+    <string name="normal_start_time">Start Time</string>
+    <string name="normal_end_time">End Time</string>
+    <string name="normal_title">Title</string>
+    <string name="normal_description">Description</string>
+    <string name="normal_sub_title">Sub Title</string>
+
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="alert_onback">Do you really want to exit this app?</string>
+    <string name="alt_reg_name">The name is empty.</string>
+    <string name="alt_reg_surname">The surname is empty.</string>
+    <string name="alt_email">Your email is empty.</string>
+    <string name="alt_email_type">The email type is wrong.</string>
+    <string name="alt_reg_phone">The phone number is empty.</string>
+    <string name="alt_reg_location">The location is empty.</string>
+    <string name="alt_pass">The password is empty.</string>
+    <string name="alt_reg_repass">The password is not matched.</string>
+    <string name="alt_reg_age">The age is not empty.</string>
+    <string name="alt_reg_success">Success Register</string>
+    <string name="alt_connect_server" translatable="false">Connecting server...</string>
+    <string name="alt_login_forgot">Success request. Please check your email.</string>
+    <string name="alt_login_forgot_fail">Failed request.</string>
+    <string name="alt_auth_failed">Authentication failed.</string>
+    <string name="alt_login_register">Please try again register.</string>
+    <string name="alt_home_title">The title is empty.</string>
+    <string name="alt_home_subtitle">The sub title is empty.</string>
+    <string name="alt_home_descrition">The description is empty.</string>
+    <string name="alt_home_noready">You already have an order now.</string>
+    <string name="alt_login_type">User Type Wrong.</string>
+    <string name="alt_detail_no_orders">No Orders.</string>
+
+    <string name="login_forgot_password"><u>Forgot Password?</u></string>
+    <string name="login_title">Login</string>
+    <string name="login_register_desc">If you have no account,</string>
+    <string name="login_register_click"><u>Click here.</u></string>
+    <string name="login_user_type">User Type</string>
+
+    <string name="register_title">Register</string>
+    <string name="register_confirm_pass">Confirm Password</string>
+    <string name="register_login_desc">If you have an account,</string>
+    <string name="register_login_click"><u>Go to login.</u></string>
+
+    <string name="bottom_sellers">Sellers</string>
+    <string name="bottom_buyers">Buyers</string>
+    <string name="bottom_payment">Payment</string>
+    <string name="bottom_history">History</string>
+
+    <string name="seller_active">Active</string>
+    <string name="seller_inactive">Inactive</string>
+    <string name="seller_contact">Contact</string>
+    <string name="seller_detail_title">Seller Detail</string>
+
+    <string name="history_detail_title">History Detail</string>
+    <string name="history_buyer_information">Buyer Information</string>
+    <string name="history_seller_information">Seller Information</string>
+    <string name="history_order_detail">Order Detail</string>
+    <string name="buyer_detail_title">Buyer Detail</string>
+    <string name="bottom_orders">Orders</string>
+    <string name="normal_payments">Payments</string>
+    <string name="payment_price">Price</string>
+    <string name="normal_date_time">Date Time</string>
+    <string name="order_created_time">Created Time</string>
+    <string name="order_open">Open</string>
+    <string name="order_processing">Processing</string>
+    <string name="normal_credit_card">Credit Card</string>
+
+</resources>

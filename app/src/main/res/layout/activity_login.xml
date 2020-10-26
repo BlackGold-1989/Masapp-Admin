@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <TextView style="@style/lbl_logo" />
+
+    <com.laodev.masappadmin.ui.InputLayout
+        android:id="@+id/ilt_login_email"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_email_main"
+        app:hint="@string/normal_email"
+        app:inputType="Email"/>
+
+    <com.laodev.masappadmin.ui.InputLayout
+        android:id="@+id/ilt_login_pass"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_pass_main"
+        app:hint="@string/normal_password"
+        app:inputType="Pass"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/chb_login_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_remember"
+            android:buttonTint="@color/colorYellow"
+            android:textColor="@color/colorYellow"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_forgot_password"
+            android:textColor="@color/colorYellow"
+            android:onClick="onClickGoToForgot"/>
+    </LinearLayout>
+
+    <Button
+        android:text="@string/login_title"
+        android:layout_marginTop="30dp"
+        style="@style/btn_main_back"
+        android:onClick="onClickLoginBtn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_marginBottom="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorYellow"
+            android:text="@string/login_register_desc" />
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorYellow"
+            android:onClick="onClickGoToRegister"
+            android:text="@string/login_register_click" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        style="@style/llt_input_back" >
+
+        <ImageView
+            android:id="@+id/img_input"
+            style="@style/img_input"/>
+
+        <LinearLayout style="@style/llt_input_spec"/>
+
+        <EditText
+            android:id="@+id/txt_input"
+            style="@style/txt_input" />
+    </LinearLayout>
+
+</LinearLayout>

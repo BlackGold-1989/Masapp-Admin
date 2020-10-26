@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_seller"
+        android:checked="true"
+        android:icon="@drawable/ic_users_main"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_sellers" />
+
+    <item
+        android:id="@+id/action_buyer"
+        android:checked="true"
+        android:icon="@drawable/ic_users_main"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_buyers" />
+
+    <item
+        android:id="@+id/action_pay"
+        android:checked="true"
+        android:icon="@drawable/ic_payment_main"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_payment" />
+
+    <item
+        android:id="@+id/action_order"
+        android:checked="true"
+        android:icon="@drawable/ic_order_main"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_orders" />
+</menu>

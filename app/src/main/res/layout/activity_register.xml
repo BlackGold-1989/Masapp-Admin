@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView style="@style/lbl_logo" />
+
+            <com.laodev.masappadmin.ui.InputLayout
+                android:id="@+id/ilt_register_name"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:src="@drawable/ic_user_main"
+                app:hint="@string/normal_user_name"
+                app:inputType="Other"/>
+
+            <com.laodev.masappadmin.ui.InputLayout
+                android:id="@+id/ilt_register_email"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:src="@drawable/ic_email_main"
+                app:hint="@string/normal_email"
+                app:inputType="Email"/>
+
+            <com.laodev.masappadmin.ui.InputLayout
+                android:id="@+id/ilt_register_phone"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:src="@drawable/ic_phone_main"
+                app:hint="@string/normal_phone_number"
+                app:inputType="Number"/>
+
+            <com.laodev.masappadmin.ui.InputLayout
+                android:id="@+id/ilt_register_password"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:src="@drawable/ic_pass_main"
+                app:hint="@string/normal_password"
+                app:inputType="Pass"/>
+
+            <com.laodev.masappadmin.ui.InputLayout
+                android:id="@+id/ilt_register_repass"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:src="@drawable/ic_pass_main"
+                app:hint="@string/register_confirm_pass"
+                app:inputType="Pass"/>
+
+            <Button
+                android:text="@string/register_title"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                style="@style/btn_main_back"
+                android:onClick="onClickRegisterBtn"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_marginTop="12sp"
+        android:layout_marginBottom="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorYellow"
+            android:text="@string/register_login_desc" />
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorYellow"
+            android:onClick="onClickGoToLogin"
+            android:text="@string/register_login_click" />
+    </LinearLayout>
+
+
+</LinearLayout>
